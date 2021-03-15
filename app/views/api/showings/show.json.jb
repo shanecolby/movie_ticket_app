@@ -1,0 +1,6 @@
+{
+  movie_id: @showing.movie_id,
+  auditorium_id: @showing.auditorium_id,
+  time: @showing.time,
+  available_seats: @showing.available_seats
+}

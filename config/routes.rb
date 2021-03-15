@@ -7,5 +7,9 @@ Rails.application.routes.draw do
     # get "/movies" => "movies#index"
     root to: "movies#index"
     resources :movies
+    resources :auditoriums
+    resources :sales
+    resources :theaters
+    resources :showings
   end
 end

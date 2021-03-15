@@ -1,0 +1,5 @@
+@theaters.map do |theater|
+  {
+    name: theater.name
+  }
+end
