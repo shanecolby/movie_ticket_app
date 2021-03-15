@@ -30,7 +30,7 @@ Showing.create(time: "Mon, 22 Feb 2021 24:00:00 UTC +00:00",movie_id: 3, auditor
 Showing.create(time: "Tue, 23 Feb 2021 22:30:00 UTC +00:00",movie_id: 4, auditorium_id: 5)
 Showing.create(time: "Tue, 23 Feb 2021 24:00:00 UTC +00:00",movie_id: 5, auditorium_id: 5)
 
-# Sale.create(customer_name:"Jerry", customer_email:"jerryj@gmail.com",showing_id: 1)
-# Sale.create(customer_name:"Jerry", customer_email:"jerryj@gmail.com",showing_id: 3)
-# Sale.create(customer_name:"Jerry", customer_email:"jerryj@gmail.com",showing_id: 5)
-# Sale.create(customer_name:"Jerry", customer_email:"jerryj@gmail.com",showing_id: 6)
+Sale.create(customer_name:"Shane", customer_email:"shane@gmail.com",showing_id: 1)
+Sale.create(customer_name:"Mary", customer_email:"mary@gmail.com",showing_id: 3)
+Sale.create(customer_name:"Jon", customer_email:"jon@gmail.com",showing_id: 5)
+Sale.create(customer_name:"Frank", customer_email:"frank@gmail.com",showing_id: 6)
