@@ -3,7 +3,6 @@ class Api::SalesController < ApplicationController
   def index
     @sales = Sale.all
     render "index.json.jb"
-
   end
 
   def show
@@ -28,7 +27,6 @@ class Api::SalesController < ApplicationController
     render json: {
       message: "Sale has been removed"
     }
-
   end
 
 end
