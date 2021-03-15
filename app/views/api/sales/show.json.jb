@@ -1,0 +1,7 @@
+{
+  showing_id: @sale.showing_id,
+  customer_name: @sale.customer_name,
+  email: @sale.email
+
+
+}
