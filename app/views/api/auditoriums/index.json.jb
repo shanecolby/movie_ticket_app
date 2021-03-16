@@ -1,5 +1,6 @@
 @auditoriums.map do |auditorium|
   {
+    auditorium_id: auditorium.id,
     theater_id: auditorium.theater_id,
     auditorium_number: auditorium.auditorium_number,
     seating_capacity: auditorium.seating_capacity,

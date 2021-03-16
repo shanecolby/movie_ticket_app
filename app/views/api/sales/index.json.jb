@@ -1,5 +1,6 @@
 @sales.map do |sale|
   {
+    sale_id: sale.id,
     showing_id: sale.showing_id,
     customer_name: sale.customer_name,
     customer_email: sale.customer_email
