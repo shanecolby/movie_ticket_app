@@ -3,7 +3,9 @@
     sale_id: sale.id,
     showing_id: sale.showing_id,
     customer_name: sale.customer_name,
-    customer_email: sale.customer_email
+    customer_email: sale.customer_email,
+    credit_card_number: sale.credit_card_number,
+    expiration_date: sale.expiration_date
    
 
   }

@@ -9,9 +9,11 @@ class Api::SalesController < ApplicationController
     @sale = Sale.new(
       showing_id: params[:showing_id],
       customer_name: params[:customer_name],
-      customer_email: params[:customer_email]
+      customer_email: params[:customer_email],
+      credit_card_number: params[:credit_card_number],
+      expiration_date: params[:expiration_date]
     )
-    # @sales.save!
+    @sale.save
     render "show.json.jb"
   end
 
