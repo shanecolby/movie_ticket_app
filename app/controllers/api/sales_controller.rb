@@ -5,6 +5,17 @@ class Api::SalesController < ApplicationController
     render "index.json.jb"
   end
 
+  def create
+    @sale = Sale.new(
+      showing_id: params[:showing_id],
+      customer_name: params[:customer_name],
+      customer_email: params[:customer_email]
+    )
+    # @sales.save!
+    render "show.json.jb"
+  end
+
+
   def show
     @sale = Sale.find_by(id: params[:id])
     render "show.json.jb"
