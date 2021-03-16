@@ -1,5 +1,6 @@
 @showings.map do |showing|
   {
+    showing_id: showing.id,
     movie_id: showing.movie_id,
     auditorium_id: showing.auditorium_id,
     time: showing.time,
