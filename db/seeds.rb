@@ -1,10 +1,7 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
 # Movie.create(title: "Tom & Jerry")
 # Movie.create(title: "Chaos Walking")
 # Movie.create(title: "Boogie")
@@ -15,11 +12,11 @@
 # theater = Theater.new(name: "LaunchPad Movie-Lab")
 # theater.save
 
-Auditorium.create(auditorium_number: 1,available_seats: 75, theater_id: theater.id)
-Auditorium.create(auditorium_number: 2,available_seats: 75, theater_id: theater.id)
-Auditorium.create(auditorium_number: 3,available_seats: 75, theater_id: theater.id)
-Auditorium.create(auditorium_number: 4,available_seats: 75, theater_id: theater.id)
-Auditorium.create(auditorium_number: 5,available_seats: 75, theater_id: theater.id)
+# Auditorium.create(auditorium_number: 1,available_seats: 75, theater_id: theater.id)
+# Auditorium.create(auditorium_number: 2,available_seats: 75, theater_id: theater.id)
+# Auditorium.create(auditorium_number: 3,available_seats: 75, theater_id: theater.id)
+# Auditorium.create(auditorium_number: 4,available_seats: 75, theater_id: theater.id)
+# Auditorium.create(auditorium_number: 5,available_seats: 75, theater_id: theater.id)
 
 # Showing.create(time: "Mon, 22 Feb 2021 22:30:00 UTC +00:00",movie_id: 1, auditorium_id: 1)
 # Showing.create(time: "Mon, 22 Feb 2021 24:00:00 UTC +00:00",movie_id: 1, auditorium_id: 2)

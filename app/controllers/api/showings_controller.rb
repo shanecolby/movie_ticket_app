@@ -1,4 +1,5 @@
 class Api::ShowingsController < ApplicationController
+  
 
   def index 
     @showings = Showing.all
@@ -14,9 +15,10 @@ class Api::ShowingsController < ApplicationController
     @showing = Showing.new(
       movie_id: params[:movie_id],
       auditorium_id: params[:auditorium_id],
-      time: params[:time]
+      time: params[:time],
+      available_seats: params[:available_seats]
     )
-    # @movie.save!
+    @showing.save
     render "show.json.jb"
   
     
@@ -28,6 +30,7 @@ class Api::ShowingsController < ApplicationController
     @showing.movie_id = params[:movie_id] || @showing.movie_id,
     @showing.auditorium_id = params[:auditorium_id] || @showing.auditorium_id,
     @showing.time = params[:time] || @showing.time,
+    @showing.available_seats = params[:available_seats] || @showing.available_seats
 
     @showing.save
     render "show.json.jb"
