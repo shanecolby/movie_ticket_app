@@ -16,7 +16,7 @@ class Api::ShowingsController < ApplicationController
       movie_id: params[:movie_id],
       auditorium_id: params[:auditorium_id],
       time: params[:time],
-      available_seats: params[:available_seats]
+      available_seats:  available_seats
     )
     @showing.save
     render "show.json.jb"
