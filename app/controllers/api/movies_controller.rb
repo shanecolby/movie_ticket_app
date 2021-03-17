@@ -15,7 +15,7 @@ class Api::MoviesController < ApplicationController
     @movie = Movie.new(
       title: params[:title]
     )
-    # @movie.save!
+    @movie.save
     render "show.json.jb"
 
   end
@@ -25,7 +25,7 @@ class Api::MoviesController < ApplicationController
 
     @movie.title = params[:title] || @movie.title
 
-    # @movie.save
+    @movie.save
     render "show.json.jb"
   end
 

@@ -1,6 +1,6 @@
 class Api::AdminsController < ApplicationController
   def create
-    admin = User.new(
+    admin = Admin.new(
       username: params[:username],
       password_digest: params[:password_digest],
       password: params[:password]

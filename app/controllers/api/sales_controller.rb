@@ -30,7 +30,7 @@ class Api::SalesController < ApplicationController
     @sale.customer_name = params[:customer_name] || @sale.customer_name,
     @sale.customer_email = params[:customer_email] || @sale.customer_email
 
-    # @sale.save
+    @sale.save
     render "show.json.jb"
   end
 

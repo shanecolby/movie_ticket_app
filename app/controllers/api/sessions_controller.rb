@@ -4,11 +4,11 @@ class Api::SessionsController < ApplicationController
     if admin && admin.authenticate(params[:password])
       jwt = JWT.encode(
         {
-          admin_id: admin.id, # the data to encode
-          exp: 24.hours.from_now.to_i # the expiration time
+          admin_id: admin.id, 
+          exp: 24.hours.from_now.to_i 
         },
-        Rails.application.credentials.fetch(:secret_key_base), # the secret key
-        "HS256" # the encryption algorithm
+        Rails.application.credentials.fetch(:secret_key_base), 
+        "HS256"
       )
       render json: { jwt: jwt, email: admin.email, admin_id: admin.id }, status: :created
     else

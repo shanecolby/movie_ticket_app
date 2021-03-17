@@ -4,6 +4,4 @@
   customer_email: @sale.customer_email,
   credit_card_number: @sale.credit_card_number,
   expiration_date: @sale.expiration_date
-
-
 }

@@ -16,7 +16,7 @@ class Api::AuditoriumsController < ApplicationController
     @auditorium.auditorium_number = params[:auditorium_number] || @auditorium.auditorium_number,
     @auditorium.seating_capacity = params[:seating_capacity] || @auditorium.seating_capacity
 
-    # @auditorium.save
+    @auditorium.save
     render "show.json.jb"
   end
 
