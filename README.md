@@ -59,7 +59,17 @@ HOME PAGE
 -allows user to click a button to view all the current movies playing at the theater.
 
 SHOWINGS PAGE
--allows user to click a button to display all current movie information including time, auditorium number and available seats.
+-allows user to click a button to display all current movie information including time, auditorium number and available seats. This page is also used to purchse a specific movie and time. This is done by clicking the "purchse" button. That button would bring you to a sales/create page where the user enters the required information to complete the purchase. Once the purchase is complete, action mailer will take the users email and send a sale receipt.
+
+THEATERS PAGE
+-This page shows all the theaters associated with the application. For now, there is just one but if the company were to expand, we can add locations without have to restrucure the application. 
+
+ADMIN ACCESS PAGE
+-This page is for admin access. The main button will display total sales. The admin should also be able to update auditorium information, seating and movies.
+
+
+
+
 
 
 
