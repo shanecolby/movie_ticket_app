@@ -27,4 +27,54 @@ Things you may want to cover:
 
 THOUGHT PROCESS (MOVIE TICKET APP)
 
+CONTROLLERS
+
+
+
+
+ADMINS:
+
+THEATERS:
+
+AUDITORIUMS:
+
+SHOWINGS:
+
+MOVIES:
+
+SALES:
+
+
+
+
+
+
+
+
+SUCCESSES
+
+
+
+
+
+
+
+
+
+
+SET-BACKS
+
+
+
+
+
+
+
+
+
+
+
+
+COULD DO DIFFERENTLY 
+
 
