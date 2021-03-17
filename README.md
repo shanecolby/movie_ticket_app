@@ -29,52 +29,37 @@ THOUGHT PROCESS (MOVIE TICKET APP)
 
 CONTROLLERS
 
+ADMIN: controller used to allow access for admin/admins. This allows an admin to view all sales and update showings (seating updates, time, movie, etc.) This allows the manager to make changes and maintain the app.
 
+THEATER: controller used to display active theaters. This allows for future locations to be added without having to make a separate application.
 
+AUDITORIUMS: controller used hold specific information about the theater and auditorium information, such as id and seat capacity.
 
-ADMINS:
+SHOWINGS: controller used to display showing times, available seats for a selected movie, movie id and auditorium id. Available seats are calculated by taking the seating capacity of the auditorium and minus the number of sales for that particular showing.
 
-THEATERS:
+MOVIES: controller used to display movie title and id.
 
-AUDITORIUMS:
-
-SHOWINGS:
-
-MOVIES:
-
-SALES:
-
+SALES: controller used to ticket purchases. Once a customer finds a particular showing, they will click purchase. This will create an order that requests customer name, email, showing id, credit card and expiration date.
 
 
 
 
+SUCCESS: Schema, displaying most data (frontend/backend), making available seats work, doing it without help.
+
+SETBACKS: displaying certain data (front end), updating/creating sales (back end), action mailer
+
+COULD DO DIFFERETLY: manage time more effectively to get mvp working before adding additional material. Learn how to display backend data without creating an actual front end (erb).
+
+TAKE HOMES: fantastic way to test my skills. It exposed some weaknesses and allows me to prioritize what I need to practice/learn. Will do more tech challenges for practice moving forward.
 
 
+USING THE APP
 
-SUCCESSES
+HOME PAGE
+-allows user to click a button to view all the current movies playing at the theater.
 
+SHOWINGS PAGE
+-allows user to click a button to display all current movie information including time, auditorium number and available seats.
 
-
-
-
-
-
-
-
-
-SET-BACKS
-
-
-
-
-
-
-
-
-
-
-
-
-COULD DO DIFFERENTLY 
 
 
